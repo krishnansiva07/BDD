@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-02T18:04:23 IST" name="Default suite" finished-at="2020-08-02T18:04:34 IST" duration-ms="10907">
+    <groups>
+    </groups>
+    <test started-at="2020-08-02T18:04:23 IST" name="Default test" finished-at="2020-08-02T18:04:34 IST" duration-ms="10907">
+      <class name="apitests.CrudOperation">
+        <test-method signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:apitests.CrudOperation@1fe20588]" started-at="2020-08-02T18:04:23 IST" name="addEmployee" data-provider="addEmployee" finished-at="2020-08-02T18:04:30 IST" duration-ms="7185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Weslin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Senior Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method signature="getAllEmployees()[pri:0, instance:apitests.CrudOperation@1fe20588]" started-at="2020-08-02T18:04:30 IST" name="getAllEmployees" finished-at="2020-08-02T18:04:31 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method signature="getEmployeeDetail(java.lang.String)[pri:0, instance:apitests.CrudOperation@1fe20588]" started-at="2020-08-02T18:04:31 IST" name="getEmployeeDetail" data-provider="getEmployeeUsingId" finished-at="2020-08-02T18:04:31 IST" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetail -->
+        <test-method signature="getEmployeeDetailAndVerify()[pri:0, instance:apitests.CrudOperation@1fe20588]" started-at="2020-08-02T18:04:31 IST" name="getEmployeeDetailAndVerify" finished-at="2020-08-02T18:04:33 IST" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetailAndVerify -->
+        <test-method signature="updateEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:apitests.CrudOperation@1fe20588]" started-at="2020-08-02T18:04:33 IST" name="updateEmployee" data-provider="updateEmployee" finished-at="2020-08-02T18:04:33 IST" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Walker]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Senior Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[19000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployee -->
+        <test-method signature="verifyEmployeeDetail(int, java.lang.String)[pri:0, instance:apitests.CrudOperation@1fe20588]" started-at="2020-08-02T18:04:33 IST" name="verifyEmployeeDetail" data-provider="employeeParam" finished-at="2020-08-02T18:04:34 IST" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Siva]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeDetail -->
+        <test-method signature="deleteEmployee(int)[pri:1, instance:apitests.CrudOperation@1fe20588]" started-at="2020-08-02T18:04:34 IST" name="deleteEmployee" data-provider="deleteEmployeeUsingId" finished-at="2020-08-02T18:04:34 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+      </class> <!-- apitests.CrudOperation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
